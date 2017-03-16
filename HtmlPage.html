@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <script src="JavaScript.js"></script>
+    <script src="highlight.js"></script>
+    <meta charset="utf-8" />
+</head>
+<body>
+    Поиск на странице: <input type="text" id="text-search" />
+    <button id="btn">Show Chart</button>
+    <div class="panel-group table" id="collapse-group">
+        <div class="panel panel-default">
+            <div class="panel-heading head">
+                <div class="panel-title"></div>
+                <div class="panel-title">Last Name</div>
+                <div class="panel-title">First name</div>
+                <div class="panel-title">UserName</div>
+                <div class="panel-title">Phone</div>
+                <div class="panel-title">Location</div>
+                <div class="panel-title"></div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#collapse-group" data-target="#el2">
+                <div class="panel-title img"><img /></div>
+                <div class="panel-title last"></div>
+                <div class="panel-title first"></div>
+                <div class="panel-title username"></div>
+                <div class="panel-title phone"></div>
+                <div class="panel-title location"></div>
+                <div class="panel-title img2"><img src="Plus_sign.png"/></div>
+            </div>
+            <div id="el2" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div>
+                        <h2 class="first"></h2>
+                        <p class="username"></p>
+                        <p class="reg"></p>
+                        <p class="email"></p>
+                    </div>
+                    <div class="top">
+                        <p class="address"></p>
+                        <p class="city"></p>
+                        <p class="zip"></p>
+                    </div>
+                    <div class="top">
+                        <p class="bithday"></p>
+                        <p class="phone"></p>
+                        <p class="cell"></p>
+                    </div>
+                    <div class="bigimg top">
+                        <img />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#collapse-group" data-target="#el3">
+                <div class="panel-title img"><img /></div>
+                <div class="panel-title last"></div>
+                <div class="panel-title first"></div>
+                <div class="panel-title username"></div>
+                <div class="panel-title phone"></div>
+                <div class="panel-title location"></div>
+                <div class="panel-title img2"><img src="Plus_sign.png" /></div>
+            </div>
+            <div id="el3" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div>
+                        <h2 class="first"></h2>
+                        <p class="username"></p>
+                        <p class="reg"></p>
+                        <p class="email"></p>
+                    </div>
+                    <div class="top">
+                        <p class="address"></p>
+                        <p class="city"></p>
+                        <p class="zip"></p>
+                    </div>
+                    <div class="top">
+                        <p class="bithday"></p>
+                        <p class="phone"></p>
+                        <p class="cell"></p>
+                    </div>
+                    <div class="bigimg top">
+                        <img />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#collapse-group" data-target="#el4">
+                <div class="panel-title img"><img /></div>
+                <div class="panel-title last"></div>
+                <div class="panel-title first"></div>
+                <div class="panel-title username"></div>
+                <div class="panel-title phone"></div>
+                <div class="panel-title location"></div>
+                <div class="panel-title img2"><img src="Plus_sign.png" /></div>
+            </div>
+            <div id="el4" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div>
+                        <h2 class="first"></h2>
+                        <p class="username"></p>
+                        <p class="reg"></p>
+                        <p class="email"></p>
+                    </div>
+                    <div class="top">
+                        <p class="address"></p>
+                        <p class="city"></p>
+                        <p class="zip"></p>
+                    </div>
+                    <div class="top">
+                        <p class="bithday"></p>
+                        <p class="phone"></p>
+                        <p class="cell"></p>
+                    </div>
+                    <div class="bigimg top">
+                        <img />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading" data-toggle="collapse" data-parent="#collapse-group" data-target="#el5">
+                <div class="panel-title img"><img /></div>
+                <div class="panel-title last"></div>
+                <div class="panel-title first"></div>
+                <div class="panel-title username"></div>
+                <div class="panel-title phone"></div>
+                <div class="panel-title location"></div>
+                <div class="panel-title img2"><img src="Plus_sign.png" /></div>
+            </div>
+            <div id="el5" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div>
+                        <h2 class="first"></h2>
+                        <p class="username"></p>
+                        <p class="reg"></p>
+                        <p class="email"></p>
+                    </div>
+                    <div class="top">
+                        <p class="address"></p>
+                        <p class="city"></p>
+                        <p class="zip"></p>
+                    </div>
+                    <div class="top">
+                        <p class="bithday"></p>
+                        <p class="phone"></p>
+                        <p class="cell"></p>
+                    </div>
+                    <div class="bigimg top">
+                        <img />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading" data-toggle="collapse" data-parent="#collapse-group" data-target="#el6">
+                <div class="panel-title img"><img /></div>
+                <div class="panel-title last"></div>
+                <div class="panel-title first"></div>
+                <div class="panel-title username"></div>
+                <div class="panel-title phone"></div>
+                <div class="panel-title location"></div>
+                <div class="panel-title img2"><img src="Plus_sign.png" /></div>
+            </div>
+            <div id="el6" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div>
+                        <h2 class="first"></h2>
+                        <p class="username"></p>
+                        <p class="reg"></p>
+                        <p class="email"></p>
+                    </div>
+                    <div class="top">
+                        <p class="address"></p>
+                        <p class="city"></p>
+                        <p class="zip"></p>
+                    </div>
+                    <div class="top">
+                        <p class="bithday"></p>
+                        <p class="phone"></p>
+                        <p class="cell"></p>
+                    </div>
+                    <div class="bigimg top">
+                        <img />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading" data-toggle="collapse" data-parent="#collapse-group" data-target="#el7">
+                <div class="panel-title img"><img /></div>
+                <div class="panel-title last"></div>
+                <div class="panel-title first"></div>
+                <div class="panel-title username"></div>
+                <div class="panel-title phone"></div>
+                <div class="panel-title location"></div>
+                <div class="panel-title img2"><img src="Plus_sign.png" /></div>
+            </div>
+            <div id="el7" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div>
+                        <h2 class="first"></h2>
+                        <p class="username"></p>
+                        <p class="reg"></p>
+                        <p class="email"></p>
+                    </div>
+                    <div class="top">
+                        <p class="address"></p>
+                        <p class="city"></p>
+                        <p class="zip"></p>
+                    </div>
+                    <div class="top">
+                        <p class="bithday"></p>
+                        <p class="phone"></p>
+                        <p class="cell"></p>
+                    </div>
+                    <div class="bigimg top">
+                        <img />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#collapse-group" data-target="#el8">
+                <div class="panel-title img"><img /></div>
+                <div class="panel-title last"></div>
+                <div class="panel-title first"></div>
+                <div class="panel-title username"></div>
+                <div class="panel-title phone"></div>
+                <div class="panel-title location"></div>
+                <div class="panel-title img2"><img src="Plus_sign.png" /></div>
+            </div>
+            <div id="el8" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div>
+                        <h2 class="first"></h2>
+                        <p class="username"></p>
+                        <p class="reg"></p>
+                        <p class="email"></p>
+                    </div>
+                    <div class="top">
+                        <p class="address"></p>
+                        <p class="city"></p>
+                        <p class="zip"></p>
+                    </div>
+                    <div class="top">
+                        <p class="bithday"></p>
+                        <p class="phone"></p>
+                        <p class="cell"></p>
+                    </div>
+                    <div class="bigimg top">
+                        <img />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#collapse-group" data-target="#el9">
+                <div class="panel-title img"><img /></div>
+                <div class="panel-title last"></div>
+                <div class="panel-title first"></div>
+                <div class="panel-title username"></div>
+                <div class="panel-title phone"></div>
+                <div class="panel-title location"></div>
+                <div class="panel-title img2"><img src="Plus_sign.png" /></div>
+            </div>
+            <div id="el9" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div>
+                        <h2 class="first"></h2>
+                        <p class="username"></p>
+                        <p class="reg"></p>
+                        <p class="email"></p>
+                    </div>
+                    <div class="top">
+                        <p class="address"></p>
+                        <p class="city"></p>
+                        <p class="zip"></p>
+                    </div>
+                    <div class="top">
+                        <p class="bithday"></p>
+                        <p class="phone"></p>
+                        <p class="cell"></p>
+                    </div>
+                    <div class="bigimg top">
+                        <img />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#collapse-group" data-target="#el10">
+                <div class="panel-title img"><img /></div>
+                <div class="panel-title last"></div>
+                <div class="panel-title first"></div>
+                <div class="panel-title username"></div>
+                <div class="panel-title phone"></div>
+                <div class="panel-title location"></div>
+                <div class="panel-title img2"><img src="Plus_sign.png" /></div>
+            </div>
+            <div id="el10" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div>
+                        <h2 class="first"></h2>
+                        <p class="username"></p>
+                        <p class="reg"></p>
+                        <p class="email"></p>
+                    </div>
+                    <div class="top">
+                        <p class="address"></p>
+                        <p class="city"></p>
+                        <p class="zip"></p>
+                    </div>
+                    <div class="top">
+                        <p class="bithday"></p>
+                        <p class="phone"></p>
+                        <p class="cell"></p>
+                    </div>
+                    <div class="bigimg top">
+                        <img />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#collapse-group" data-target="#el11">
+                <div class="panel-title img"><img /></div>
+                <div class="panel-title last"></div>
+                <div class="panel-title first"></div>
+                <div class="panel-title username"></div>
+                <div class="panel-title phone"></div>
+                <div class="panel-title location"></div>
+                <div class="panel-title img2"><img src="Plus_sign.png" /></div>
+            </div>
+            <div id="el11" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div>
+                        <h2 class="first"></h2>
+                        <p class="username"></p>
+                        <p class="reg"></p>
+                        <p class="email"></p>
+                    </div>
+                    <div class="top">
+                        <p class="address"></p>
+                        <p class="city"></p>
+                        <p class="zip"></p>
+                    </div>
+                    <div class="top">
+                        <p class="bithday"></p>
+                        <p class="phone"></p>
+                        <p class="cell"></p>
+                    </div>
+                    <div class="bigimg top">
+                        <img />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <canvas id="polarChart"></canvas>
+   
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script type="text/javascript">
+$(function() {
+    $('#text-search').bind('keyup change', function(ev) {
+        var searchTerm = $(this).val();
+        $('body').removeHighlight();
+        if ( searchTerm ) {
+            $('body').highlight( searchTerm );
+        }
+    });
+});
+    </script>
+</body>
+</html>
