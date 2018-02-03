@@ -10,12 +10,12 @@
     width:13%;
     text-align:center;
 }
-
+/**/
 .img img,.bigimg img{
     border:3px solid white;
     border-radius:150px;
 }
-
+/**/
 .panel-group .panel+.panel{
     margin-top:0;
     border:none;
